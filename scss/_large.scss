@@ -1,0 +1,40 @@
+header, nav, main, footer {
+    max-width: 70rem;
+    margin: auto;
+}
+
+
+
+/* NAVIGATION */
+
+#primaryNav {height: auto;}
+
+nav ul li a{
+    text-align: center;
+    font-size: .9rem;
+    padding: .8rem 1.2rem;
+}
+
+// MAIN
+.swiper .heroText {
+    font-size: 2rem;
+    padding-left: 4rem;
+}
+
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+
+.customers {
+    column-gap: 1rem;;
+    section {
+        grid-template-columns: 200px auto;
+        column-gap: 1.2rem;
+        align-items: center;
+        p{font-size: 1rem;}
+    }// end section
+} // end parent

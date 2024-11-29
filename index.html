@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Green Valley</title>
+    <meta name="description" content="Jade Xa | Start File With SCSS">
+    <meta name="author" content="Jade Xa">
+
+    <!-- fav icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/styles.min.css" rel="stylesheet">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+
+</head>
+<body>
+    <div id="headerWrapper">
+        <header>
+            <a href="#"><img src="images/logo1x.png" alt="logo" width="150" height="150" srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x"></a>
+            <a class="phone" href="tel:18700867006"><p>801-801-8018</p></a>
+        </header>
+    </div>
+
+    <div id="navWrapper">
+        <nav>
+            <button id="hamburgerBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li class="parent active"><a href="#">Services</a>
+                    <ul>
+                        <li><a href="#">Aeration</a></li>
+                        <li><a href="#">Landscape Design</a></li>
+                        <li><a href="#">Tree Removal</a></li>
+                        <li><a href="#">Seeding</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Appointments</a></li>
+                <li><a href="#">Staff</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="mainWrapper">
+        <main>
+
+         <!-- Slider main container -->
+         <div class="swiper">
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+             <!-- Slides -->
+             <div class="swiper-slide">
+                <picture>
+                    <source srcset="images/lawn-small.webp" media="(max-width: 746px)">
+                    <source srcset="images/lawn-medium.webp" media="(max-width: 1172px)">
+                    <img src="images/lawn-large.webp" alt="mainphoto" width="32" height="13">
+                </picture>
+             </div> <!--end one slide-->
+
+             <div class="swiper-slide">
+                <picture>
+                    <source srcset="images/seed-small.webp" media="(max-width: 746px)">
+                    <source srcset="images/seed-medium.webp" media="(max-width: 1172px)">
+                    <img src="images/seed-large.webp" alt="mainphoto" width="2.46" height="1">
+                </picture>
+             </div> <!--end one slide-->
+
+             <div class="swiper-slide">
+                <picture>
+                    <source srcset="images/flowercare-small.webp" media="(max-width: 746px)">
+                    <source srcset="images/flowercare-medium.webp" media="(max-width: 1172px)">
+                    <img src="images/flowercare-large.webp" alt="mainphoto" width="2.46" height="1">
+                </picture>
+             </div> <!--end one slide-->
+            </div>
+
+             <!-- If we need pagination -->
+             <div class="swiper-pagination"></div>
+  
+             <!-- If we need navigation buttons -->
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+
+             <!--text-->
+             <div class="heroText">
+                <h3>Green Valley</h3>
+                <p>Transforming Outdoors, One Lawn at a Time!</p>
+            </div>
+         </div>
+
+         <h1 class="what">Services</h1>
+         <div class="services">
+            <section>
+                <h2>Aeration</h2>
+                <img src="images/aeration.webp" width="400" height="300" alt="headr2">
+                <img src="images/grass.png" width="400" height="50" alt="mask">
+            </section>
+            <section>
+                <h2>Landscape Design</h2>
+                <img src="images/landscaping.webp" width="400" height="300" alt="headr2">
+                <img src="images/wild-flowers.png" width="400" height="50" alt="mask">
+            </section>
+            
+            <section>
+                <h2>Tree Removal</h2>
+                <img src="images/trees.webp" width="400" height="300" alt="headr2">
+                <img src="images/grass.png" width="400" height="50" alt="mask">
+            </section>
+            <section>
+                <h2>Seeding</h2>
+                <img src="images/lawnseeding.webp" width="400" height="300" alt="headr2">
+                <img src="images/wild-flowers.png" width="400" height="50" alt="mask">
+            </section>
+         </div>
+
+
+        <h1 class="what">Reviews</h1>
+
+        <div class="customers">
+            <section>
+                <img src="images/trist.webp" width="200" height="200" alt="customer">
+                <p>Excellent lawn care services! They are professional, punctual, and deliver impressive results. My lawn has never looked healthier or more vibrant. Highly recommend their services for anyone looking to enhance their outdoor space! </p>
+            </section>
+            <section>
+                <img src="images/sasha.webp" width="200" height="200" alt="customer">
+                <p> Their team is friendly, efficient, and pays great attention to detail. My yard looks amazing after their service. Definitely a go-to for reliable and top-notch lawn maintenance!</p>
+            </section>
+
+        </div>
+        </main>
+    </div>
+
+    <div id="footerWrapper">
+        <footer>
+            <p> &copy; <span id="year">x</span> &bullet; Jade Xa</p>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>
